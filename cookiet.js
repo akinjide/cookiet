@@ -143,7 +143,7 @@
     },
 
     /**
-     * Get all Cookiess.
+     * Get all Cookies as String.
      *
      * @return {String}
      */
@@ -164,7 +164,7 @@
     },
 
     /**
-     * Get all Cookiess.
+     * Get all Cookies as Hash.
      *
      * @return {Object}
      */
@@ -185,7 +185,7 @@
     },
 
     /**
-     * Get all Cookiess.
+     * Get all Cookies as Array hash.
      *
      * @return {Array}
      */
@@ -206,7 +206,7 @@
     },
 
     /**
-     * Get all Cookiess.
+     * Get all Cookies as 2d-Array.
      *
      * @return {Array} 2-Dimensional
      */
@@ -302,7 +302,7 @@
       }
     },
 
-    /** Cookiet length. @return {Number} */
+    /** Cookie length. @return {Number} */
     get length () {
       return document.cookie.split('; ').length;
     },
